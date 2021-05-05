@@ -4,6 +4,9 @@ All images in this repository derive from a Debian buster parent image that was 
 using the instructions shown below.  The parent image is designed to have a very simple 
 provenance to promote confidence.  
 
+The parent image is [available on Docker Hub](https://hub.docker.com/r/wrmay/buster-minbase).
+The image name is `wrmay/buster-minbase`.
+
 The instructions for creating the parent image are below.  All steps are executed on a 
 Raspberry Pi with internet access. [Debootstrap](https://wiki.debian.org/Debootstrap) 
 is used to download the image artifacts from the official Debian buster stable 
