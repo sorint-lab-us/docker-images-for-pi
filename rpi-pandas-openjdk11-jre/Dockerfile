@@ -1,2 +1,2 @@
-FROM wrmay/rpi-pandas
+FROM sorintlabus/rpi-pandas
 RUN apt update && apt install -y openjdk-11-jre-headless && apt clean
