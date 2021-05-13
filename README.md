@@ -22,8 +22,8 @@ organization.
 
 Images sized are shown below.  Currently they are a bit larger than one would like. No 
 attempts have been made to slim them down.  Two possible improvements would be: to 
-remove unused locales in the base image and to use "jlink" to build a customer JRE that 
-does contains a smaller subset of the whole Java runtime. This is an area for future work.
+remove unused locales in the base image and to use "jlink" to build a custome JRE that 
+contains a smaller subset of the whole Java runtime. This is an area for future work.
 
 ```
 REPOSITORY                             TAG       IMAGE ID       CREATED          SIZE
